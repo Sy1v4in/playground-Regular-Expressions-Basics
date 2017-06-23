@@ -1,0 +1,25 @@
+title : Regular Expressions Basics
+cover: /images/cover.png
+plan:
+  - title: "About Regular Expressions Playground"
+    statement: markdowns/about.md
+  - title: Introduction
+    statement: markdowns/intro.md
+  - title: "Reserved Characters"
+    statement: markdowns/reserved.md
+  - title: "Character Sets"
+    statement: markdowns/sets.md
+  - title: Repetitions
+    statement: markdowns/repetitions.md
+  - title: Alternations
+    statement: markdowns/alternations.md
+  - title: "Groups & Capturing Groups"
+    statement: markdowns/groups.md
+  - title: "Next Steps"
+    statement: markdowns/more.md
+projects:
+    regexcourse:
+        root: /projects/regexcourse
+        runner:
+            name: techio/dotnet-runner
+            version: 1.1.0-dotnet-1.1-sdk-msbuild
